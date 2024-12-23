@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Kings&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.header-center-links,.companions-text{
+    font-family: "Tinos", serif;
+}
+.header-left-links,.running-text-anim,.buy-button{
+    font-family: "Fugaz One", serif;
+}
+.main{
+    background-image: url('../images/screen1_background.jpg');
+}
+.running-text-anim{
+    animation: runningText 2s linear infinite;
+}
+@keyframes runningText {
+    0%{
+        transform: translateX(-11.3%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
